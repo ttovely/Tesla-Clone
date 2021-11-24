@@ -1,0 +1,38 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block__item {
+    width: 400px;
+    height: 420px;
+    background: coral;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+@media all and (max-width: 993px) {
+    .block__item {
+        padding: 20px 20px 0 20px;
+        color: white;
+        font-weight: 400px;
+    }
+}
+
+@media all and (max-width: 385px) {
+    .block__item p {
+        font-size: 18px;
+    }
+    .block__item {
+        height: 280px;
+    }
+} */
